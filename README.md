@@ -136,8 +136,8 @@ def train_model(model, train_loader, criterion, optimizer, epochs=20):
         train_losses.append(total_loss / len(train_loader))
         print(f"Epoch [{epoch+1}/{epochs}], Loss: {total_loss / len(train_loader):.4f}")
 # Plot training loss
-    print('Name: Sabeeha Shaik')
-    print('Register Number: 212223230176')
+    print('Name: RIYA P L')
+    print('Register Number: 212223240141')
     plt.plot(train_losses, label='Training Loss')
     plt.xlabel('Epoch')
     plt.ylabel('MSE Loss')
@@ -157,8 +157,8 @@ predicted_prices = scaler.inverse_transform(predicted)
 actual_prices = scaler.inverse_transform(actual)
 
 # Plot the predictions vs actual prices
-print('Name: Sabeeha Shaik')
-print('Register Number: 212223230176')
+print('Name: RIYA P L')
+print('Register Number: 212223240141')
 plt.figure(figsize=(10, 6))
 plt.plot(actual_prices, label='Actual Price')
 plt.plot(predicted_prices, label='Predicted Price')
